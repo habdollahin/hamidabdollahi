@@ -1,3 +1,3 @@
-:HL["/hamidabdollahi/_next/static/chunks/0gch4c1egw_t1.css","style"]
-:HL["/profile.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"f4x6HiEtthYyibhS3DMzd"}
+:HL["/hamidabdollahi/_next/static/chunks/07d81qq2j4le7.css","style"]
+:HL["/hamidabdollahi/profile.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"T1oK4ZVsO-Mo1LNH2y_ew"}
