@@ -1,152 +1,115 @@
-export default function ProfessionalWebsite() {
-  const projects = [
-    {
-      title: "AI-Enabled Radiomics & Outcome Modeling",
-      text: "Machine learning and deep learning models for treatment response, survival prediction, and imaging biomarker discovery in oncology.",
-      icon: "🧠",
-    },
-    {
-      title: "Radiopharmaceutical Therapy Dosimetry",
-      text: "Predictive dosimetry using time–activity curves, PBPK simulation, BED/EQD2 modeling, and interpretable AI workflows.",
-      icon: "📈",
-    },
-    {
-      title: "Radiation Therapy Physics",
-      text: "Clinical treatment planning, QA, image-guided radiation therapy, adaptive workflows, and implementation-focused research.",
-      icon: "☢️",
-    },
-  ];
-
-  const skills = [
-    "Medical Physics",
-    "Radiomics",
-    "Machine Learning",
-    "Deep Learning",
-    "Radiation Oncology",
-    "Theranostics",
-    "Treatment Planning",
-    "Python",
-    "Model Evaluation",
-    "SHAP Explainability",
-  ];
-
+export default function AcademicWebsite() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
-      <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div className="text-lg font-semibold tracking-tight">Dr. Hamid Abdollahi</div>
-          <nav className="hidden gap-6 text-sm text-slate-300 md:flex">
-            <a href="#about" className="hover:text-white">About</a>
-            <a href="#research" className="hover:text-white">Research</a>
-            <a href="#skills" className="hover:text-white">Skills</a>
-            <a href="#contact" className="hover:text-white">Contact</a>
+    <div className="min-h-screen bg-white text-slate-800">
+      <header className="border-b border-slate-200 bg-white">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-7">
+          <div className="text-xl font-bold text-slate-900">Hamid Abdollahi</div>
+          <nav className="flex gap-10 text-lg text-slate-600">
+            <a href="#publications" className="hover:text-teal-700">Publications</a>
+            <a href="#research" className="hover:text-teal-700">Research</a>
+            <a href="#awards" className="hover:text-teal-700">Awards</a>
+            <a href="#service" className="hover:text-teal-700">Service</a>
+            <a href="#teaching" className="hover:text-teal-700">Teaching</a>
+            <a href="#mentorship" className="hover:text-teal-700">Mentorship</a>
+            <a href="/cv.pdf" className="border border-blue-600 px-3 py-2 text-blue-700 hover:bg-blue-50">CV</a>
           </nav>
         </div>
       </header>
 
-      <main>
-        <section className="relative overflow-hidden px-6 py-24 md:py-32">
-          <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,rgba(56,189,248,0.25),transparent_35%),radial-gradient(circle_at_bottom_left,rgba(168,85,247,0.2),transparent_35%)]" />
-          <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
-            <div>
-              <p className="mb-4 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm text-cyan-200">
-                Medical Physicist · AI in Oncology · Radiomics
-              </p>
-              <h1 className="text-4xl font-bold leading-tight md:text-6xl">
-                Building intelligent tools for precision radiation oncology.
-              </h1>
-              <p className="mt-6 max-w-xl text-lg leading-8 text-slate-300">
-                I work at the intersection of medical physics, quantitative imaging, artificial intelligence, and radiation therapy to support more personalized and interpretable cancer care.
-              </p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <a href="#research" className="rounded-2xl bg-white px-6 py-3 font-medium text-slate-950 hover:bg-slate-200">
-                  View Research →
-                </a>
-                <a href="#contact" className="rounded-2xl border border-white/20 bg-white/5 px-6 py-3 font-medium text-white hover:bg-white/10">
-                  Contact Me
-                </a>
-              </div>
-            </div>
+      <main className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-8 py-16 md:grid-cols-[300px_1fr]">
+        <aside className="text-center">
+          <div className="mx-auto h-40 w-40 overflow-hidden rounded-2xl bg-slate-200 shadow-lg">
+            <img
+              src="/profile.jpg"
+              alt="Hamid Abdollahi"
+              className="h-full w-full object-cover"
+            />
+          </div>
 
-            <div className="rounded-3xl border border-white/10 bg-white/10 p-8 shadow-2xl backdrop-blur">
-              <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-3xl bg-cyan-400/20 text-4xl">
-                🔬
-              </div>
-              <h2 className="text-2xl font-semibold text-white">Research Focus</h2>
-              <p className="mt-4 leading-7 text-slate-300">
-                Translational AI, radiomics, digital twins, and biologically informed modeling for radiotherapy and radiopharmaceutical therapy.
-              </p>
-              <div className="mt-6 grid grid-cols-2 gap-3 text-sm text-slate-300">
-                <div className="rounded-2xl bg-white/10 p-4">Predictive Modeling</div>
-                <div className="rounded-2xl bg-white/10 p-4">Clinical Translation</div>
-                <div className="rounded-2xl bg-white/10 p-4">Dosimetry</div>
-                <div className="rounded-2xl bg-white/10 p-4">Explainable AI</div>
-              </div>
+          <h1 className="mt-7 text-2xl font-bold text-slate-900">Hamid Abdollahi</h1>
+          <p className="mt-4 text-lg leading-7 text-slate-600">
+            Medical Physicist<br />
+            Researcher in AI, Radiomics, and Radiation Oncology
+          </p>
+
+          <p className="mt-3 text-lg leading-7 text-teal-700">
+            University of British Columbia<br />
+            BC Cancer
+          </p>
+
+          <div className="mt-6 flex justify-center gap-3">
+            <a href="mailto:your.email@example.com" className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-200 text-xl hover:bg-slate-300">✉️</a>
+            <a href="#" className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-200 text-xl hover:bg-slate-300">in</a>
+            <a href="#" className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-200 text-xl hover:bg-slate-300">G</a>
+            <a href="/cv.pdf" className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-200 text-xl hover:bg-slate-300">🎓</a>
+          </div>
+
+          <div className="mt-8">
+            <p className="font-bold tracking-wide text-slate-400">QUICK LINKS</p>
+            <div className="mt-4 flex flex-wrap justify-center gap-3">
+              <a href="#research" className="rounded-full border border-teal-700 px-4 py-2 font-semibold text-teal-700 hover:bg-teal-50">Research</a>
+              <a href="#publications" className="rounded-full border border-teal-700 px-4 py-2 font-semibold text-teal-700 hover:bg-teal-50">Papers</a>
+              <a href="#projects" className="rounded-full border border-teal-700 px-4 py-2 font-semibold text-teal-700 hover:bg-teal-50">Projects</a>
+              <a href="#contact" className="rounded-full border border-teal-700 px-4 py-2 font-semibold text-teal-700 hover:bg-teal-50">Contact</a>
             </div>
           </div>
-        </section>
+        </aside>
 
-        <section id="about" className="px-6 py-20">
-          <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">About</h2>
-            <p className="mt-6 text-lg leading-8 text-slate-300">
-              I am a medical physicist and researcher focused on developing clinically meaningful AI models for oncology. My work combines radiation therapy physics, quantitative imaging, radiomics, dosimetry, and model interpretability to improve decision support in cancer care.
+        <section className="max-w-4xl text-[22px] leading-[1.75] text-slate-800">
+          <p>
+            I am a medical physicist and researcher working at the intersection of radiation oncology, quantitative imaging, radiomics, artificial intelligence, and radiopharmaceutical therapy. My research focuses on developing clinically meaningful and interpretable AI models to support precision oncology, treatment response prediction, dosimetry, and decision-making in cancer care.
+          </p>
+
+          <p className="mt-8">
+            My work spans radiomics, machine learning, deep learning, digital twins, time–activity curve modeling, PBPK-based simulation, and biologically informed dosimetry metrics such as BED and EQD2. I am particularly interested in building translational tools that connect imaging biomarkers, patient-specific modeling, and adaptive radiation therapy workflows.
+          </p>
+
+          <p className="mt-8">
+            Beyond research, I am committed to education, mentorship, and scientific collaboration. I have experience in medical physics research, treatment planning, clinical quality assurance, model evaluation, and manuscript development, with a strong interest in making AI methods more transparent, reproducible, and clinically useful.
+          </p>
+
+          <section id="research" className="mt-14">
+            <h2 className="mb-5 text-4xl font-bold text-slate-900">Research</h2>
+            <div className="space-y-5 text-xl leading-8">
+              <div className="rounded-2xl border border-slate-200 p-6 shadow-sm">
+                <h3 className="text-2xl font-bold text-teal-700">AI-Enabled Radiomics and Outcome Modeling</h3>
+                <p className="mt-3 text-slate-600">Development and validation of machine learning models for response prediction, survival analysis, and imaging biomarker discovery in oncology.</p>
+              </div>
+              <div className="rounded-2xl border border-slate-200 p-6 shadow-sm">
+                <h3 className="text-2xl font-bold text-teal-700">Radiopharmaceutical Therapy Dosimetry</h3>
+                <p className="mt-3 text-slate-600">Predictive dosimetry using time–activity curves, PBPK simulation, absorbed dose, BED, EQD2, and explainable AI models.</p>
+              </div>
+              <div className="rounded-2xl border border-slate-200 p-6 shadow-sm">
+                <h3 className="text-2xl font-bold text-teal-700">Digital Twins in Radiation Oncology</h3>
+                <p className="mt-3 text-slate-600">Patient-specific modeling frameworks for adaptive therapy, virtual trials, and biologically informed precision radiotherapy.</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="publications" className="mt-14">
+            <h2 className="mb-5 text-4xl font-bold text-slate-900">Selected Publications</h2>
+            <ul className="list-disc space-y-4 pl-7 text-xl leading-8 text-slate-700">
+              <li>Multimodality radiomics modeling for oncology outcome prediction.</li>
+              <li>AI-based predictive dosimetry for radiopharmaceutical therapy.</li>
+              <li>Digital twins and biologically informed adaptive radiotherapy.</li>
+            </ul>
+          </section>
+
+          <section id="teaching" className="mt-14">
+            <h2 className="mb-5 text-4xl font-bold text-slate-900">Teaching & Mentorship</h2>
+            <p>
+              I am interested in supporting students, residents, and early-career researchers in medical physics, radiomics, AI in oncology, research design, scientific writing, and reproducible computational workflows.
             </p>
-          </div>
-        </section>
+          </section>
 
-        <section id="research" className="bg-white/[0.03] px-6 py-20">
-          <div className="mx-auto max-w-6xl">
-            <div className="mb-10 max-w-3xl">
-              <h2 className="text-3xl font-bold md:text-4xl">Research & Projects</h2>
-              <p className="mt-4 text-slate-300">Selected areas of work and scientific interest.</p>
-            </div>
-            <div className="grid gap-6 md:grid-cols-3">
-              {projects.map((project) => (
-                <div key={project.title} className="rounded-3xl border border-white/10 bg-slate-900/80 p-7 text-white shadow-xl">
-                  <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-400/15 text-2xl">
-                    {project.icon}
-                  </div>
-                  <h3 className="text-xl font-semibold">{project.title}</h3>
-                  <p className="mt-3 leading-7 text-slate-300">{project.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="skills" className="px-6 py-20">
-          <div className="mx-auto max-w-6xl">
-            <h2 className="text-3xl font-bold md:text-4xl">Skills</h2>
-            <div className="mt-8 flex flex-wrap gap-3">
-              {skills.map((skill) => (
-                <span key={skill} className="rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm text-slate-200">
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="contact" className="bg-white/[0.03] px-6 py-20">
-          <div className="mx-auto max-w-4xl rounded-3xl border border-white/10 bg-slate-900/80 p-8 text-center shadow-2xl md:p-12">
-            <h2 className="text-3xl font-bold md:text-4xl">Let’s connect</h2>
-            <p className="mt-4 text-slate-300">
-              For collaborations, research discussions, or professional opportunities, please reach out.
+          <section id="contact" className="mt-14 rounded-2xl border border-slate-200 p-7 shadow-sm">
+            <h2 className="mb-4 text-4xl font-bold text-slate-900">Contact</h2>
+            <p className="text-xl text-slate-700">
+              For collaboration, research discussion, or professional opportunities, please contact me by email or through LinkedIn.
             </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-4 text-sm text-slate-300">
-              <span className="rounded-full bg-white/10 px-4 py-2">✉️ hamidrbp60@gmail.com</span>
-              <span className="rounded-full bg-white/10 px-4 py-2">📍 Canada</span>
-              <span className="rounded-full bg-white/10 px-4 py-2">LinkedIn</span>
-              <span className="rounded-full bg-white/10 px-4 py-2">https://scholar.google.com/citations?user=uWIpnHwAAAAJ&hl=en </span>
-            </div>
-          </div>
+          </section>
         </section>
       </main>
-
-      <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-slate-400">
-        © 2026 Dr. Hamid Abdollahi. All rights reserved.
-      </footer>
     </div>
   );
 }
