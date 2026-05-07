@@ -29,12 +29,12 @@ export default function AcademicWebsite() {
           <h1 className="mt-7 text-2xl font-bold text-slate-900">Hamid Abdollahi</h1>
           <p className="mt-4 text-lg leading-7 text-slate-600">
             Medical Physicist<br />
-            Researcher in AI, Radiomics, and Radiation Oncology
+            AI, Radiomics, Digital Twins, and Radiation Oncology
           </p>
 
           <p className="mt-3 text-lg leading-7 text-teal-700">
-            University of British Columbia<br />
-            BC Cancer
+            Research Associate / Medical Physics Researcher<br />
+            Canada
           </p>
 
           <div className="mt-6 flex justify-center gap-3">
@@ -57,15 +57,15 @@ export default function AcademicWebsite() {
 
         <section className="max-w-4xl text-[22px] leading-[1.75] text-slate-800">
           <p>
-            I am a medical physicist and researcher working at the intersection of radiation oncology, quantitative imaging, radiomics, artificial intelligence, and radiopharmaceutical therapy. My research focuses on developing clinically meaningful and interpretable AI models to support precision oncology, treatment response prediction, dosimetry, and decision-making in cancer care.
+            I am a medical physicist and researcher working at the intersection of radiation oncology, quantitative imaging, radiomics, artificial intelligence, and radiopharmaceutical therapy. My work focuses on developing interpretable and clinically meaningful AI tools for precision oncology, including outcome prediction, treatment response modeling, dosimetry, and patient-specific decision support.
           </p>
 
           <p className="mt-8">
-            My work spans radiomics, machine learning, deep learning, digital twins, time–activity curve modeling, PBPK-based simulation, and biologically informed dosimetry metrics such as BED and EQD2. I am particularly interested in building translational tools that connect imaging biomarkers, patient-specific modeling, and adaptive radiation therapy workflows.
+            My research spans radiomics, machine learning, deep learning, digital twins, time–activity curve modeling, PBPK-based simulation, and biologically informed dosimetry metrics such as BED and EQD2. I am especially interested in connecting imaging biomarkers, patient-specific modeling, and adaptive radiation therapy workflows to support more personalized cancer care.
           </p>
 
           <p className="mt-8">
-            Beyond research, I am committed to education, mentorship, and scientific collaboration. I have experience in medical physics research, treatment planning, clinical quality assurance, model evaluation, and manuscript development, with a strong interest in making AI methods more transparent, reproducible, and clinically useful.
+            Beyond research, I am committed to education, mentorship, and scientific collaboration. I have experience in medical physics research, treatment planning, clinical quality assurance, model development, and manuscript writing, with a strong interest in making AI methods transparent, reproducible, and clinically useful.
           </p>
 
           <section id="research" className="mt-14">
